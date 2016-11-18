@@ -7,7 +7,7 @@ class pizza{
 }
 
   //type instance functions below
-sizeCost(){
+function sizeCost(){
   if(this.size=s){
     return "7.99";
   }
@@ -20,13 +20,35 @@ sizeCost(){
   if(this.size=xl){
   return "15.99"
 }
-toppingcosts(t){
-this.topping=t;
+}
+function toppingcosts(top){
+  this.top=function(meat,veggie){
+    if(this.top==meat){
+      return("0.99")
+  }
+    if(this.cost==veggie){
+      return(".50")
+  }
+}
+}
+
+  //type class functions below
+function price("sizeCost"+"totalCost"){
+  return("price")
+  }
+}
+
+function promotionalDeal(pizza,percent){
+  this.percent=.10;
+  this.pizza=function(newCost){
+
+
+  }
 
 
 }
 
-  //type class functions below
 
+}
 
 }
